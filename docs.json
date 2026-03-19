@@ -9,6 +9,24 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "UNHub 联合库 知识中枢",
+          "icon": "book-bookmark",
+          "color": {
+            "light": "#4cb3d4",
+            "dark": "#4cb3d4"
+          },
+          "href": "https://docs.zyhorg.cn/"
+        },
+        {
+          "anchor": "杖雍皓 Socialclub",
+          "icon": "club",
+          "href": "https://socialclub.zyhorg.cn/"
+        }
+      ]
+    },
     "tabs": [
       {
         "tab": "Guides",
@@ -49,6 +67,7 @@
       },
       {
         "tab": "API reference",
+        "hidden": true,
         "groups": [
           {
             "group": "API documentation",
@@ -67,21 +86,7 @@
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.png",
@@ -132,5 +137,22 @@
       "light": "#f5f5f7",
       "dark": "#1d1d1f"
     }
+  },
+  "api": {
+    "playground": {
+      "proxy": true
+    }
+  },
+  "interaction": {
+    "drilldown": true
+  },
+  "metadata": {
+    "timestamp": true
+  },
+  "icons": {
+    "library": "lucide"
+  },
+  "search": {
+    "prompt": "输入关键词或提问..."
   }
 }
