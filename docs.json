@@ -102,20 +102,20 @@
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "href": "https://dashboard.mintlify.com/"
     }
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {
@@ -130,12 +130,32 @@
   },
   "seo": {
     "indexing": "all",
-    "meta": [
-      {
-        "name": "msvalidate.01",
-        "content": "E3A4FB466204A9FD062A1A54E9D3C75F"
-      }
-    ]
+    "metatags": {
+      "charset": "UTF-8",
+      "viewport": "width=device-width, initial-scale=1.0",
+      "canonical": "https://notes.zyhorg.cn",
+      "author": "张永豪",
+      "copyright": "版权所有 2026 杖雍皓",
+      "description": "杖雍皓的Notes知识文档库，由联合库UNHub支持建设，发布杖雍皓（张永豪）的文档、知识与经验。",
+      "keywords": "运维,开发,技术文档,知识库,笔记,程序员,联合库,UNHub,张永豪,杖雍皓",
+      "baidu-site-verification": "codeva-alAeU0G7cb",
+      "msvalidate.01": "E3A4FB466204A9FD062A1A54E9D3C75F",
+      "og:locale": "zh_CN",
+      "og:site_name": "杖雍皓的Notes - 联合库UNHub支持",
+      "og:type": "website",
+      "og:url": "https://notes.zyhorg.cn",
+      "twitter:card": "summary_large_image",
+      "twitter:site": "@zyhorg",
+      "theme-color": "#16A34A",
+      "color-scheme": "light dark",
+      "apple-mobile-web-app-title": "杖雍皓Notes",
+      "application-name": "杖雍皓Notes",
+      "msapplication-TileColor": "#16A34A",
+      "generator": "Mintlify",
+      "robots": "index, follow",
+      "language": "zh-CN",
+      "revisit-after": "7 days"
+    }
   },
   "background": {
     "decoration": "windows",
