@@ -127,6 +127,6 @@
     "indexing": "all"
   },
   "background": {
-    "image": "/images/hero-dark.png"
+    "decoration": "gradient"
   }
 }
