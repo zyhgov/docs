@@ -22,21 +22,25 @@
         },
         {
           "anchor": "杖雍皓 Socialclub",
-          "icon": "club",
+          "icon": "bullseye-arrow",
           "href": "https://socialclub.zyhorg.cn/"
         }
       ]
     },
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "总介绍与指南",
+        "icon": "arrows-spin",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "关于我们",
+            "icon": "360-degrees",
             "pages": [
               "index",
               "quickstart",
-              "development"
+              "development",
+              "unhub",
+              "zyhorg"
             ]
           },
           {
@@ -176,7 +180,7 @@
     "timestamp": true
   },
   "icons": {
-    "library": "lucide"
+    "library": "fontawesome"
   },
   "search": {
     "prompt": "输入关键词或提问..."
